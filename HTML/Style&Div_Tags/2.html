@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grouped Forms with Div Tags</title>
+</head>
+<body>
+
+<div>
+    <h2>Visitors information</h2>
+    <hr>
+    <form>
+        <table border="0">
+            <tr>
+                <td>Email address:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>User's interest web for research or purchase:</td>
+                <td><input type="checkbox" name="interest"></td>
+            </tr>
+            <tr>
+                <td>Occupation:</td>
+                <td>
+                    <select name="occupation">
+                        <option value="select" selected>(select one)</option>
+                        <option value="student">Student</option>
+                        <option value="professional">Professional</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Want us to send you junk emails?</td>
+                <td>
+                    <input type="radio" name="junk" value="absolutely"> absolutely
+                    <input type="radio" name="junk" value="no way man"> no way man
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<br><br>
+
+<div>
+    <center>
+        <h2>Registration Form</h2>
+        <form>
+            <p>Username: <input type="text" name="username"></p>
+            <p>Password: <input type="password" name="password"></p>
+            <p>Confirm Password: <input type="password" name="confirm_password"></p>
+            <p>Name: <input type="text" name="name"></p>
+            <p>Gender: 
+                <input type="radio" name="gender" value="male"> Male 
+                <input type="radio" name="gender" value="female"> Female
+            </p>
+            <p>Address:<br>
+                <textarea name="address" rows="5" cols="30"></textarea>
+            </p>
+            <p>Profession: 
+                <select name="profession">
+                    <option value="engineer">Engineer</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+            </p>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+</div>
+
+</body>
+</html>

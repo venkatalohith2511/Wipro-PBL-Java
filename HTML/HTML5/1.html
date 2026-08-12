@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Visitor Information - HTML5</title>
+</head>
+<body>
+<h2>Visitors information</h2>
+<hr>
+<form>
+    <table border="0">
+        <tr>
+            <td>Email address:</td>
+            <td><input type="email" name="email" placeholder="name@example.com" required></td>
+        </tr>
+        <tr>
+            <td>User's interest web for research or purchase:</td>
+            <td><input type="checkbox" name="interest"></td>
+        </tr>
+        <tr>
+            <td>Occupation:</td>
+            <td>
+                <select name="occupation" required>
+                    <option value="" disabled selected>(select one)</option>
+                    <option value="student">Student</option>
+                    <option value="professional">Professional</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Want us to send you junk emails?</td>
+            <td>
+                <input type="radio" name="junk" value="absolutely" required> absolutely
+                <input type="radio" name="junk" value="no way man" required> no way man
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"></td>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
